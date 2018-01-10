@@ -1,6 +1,6 @@
 # Lunar lander con html, css y javascript
 
-Juego terminado: https://cdn.rawgit.com/ach74/LunaLander-Ach74/422649b3/index.html
+Juego terminado: https://rawgit.com/ach74/LunaLander-Ach74aaaaaa/master/index.html
 
 **Autor:** Achraf El Ouakili
 
