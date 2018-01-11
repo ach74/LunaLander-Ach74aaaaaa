@@ -243,6 +243,9 @@ function moverNave(){
 		}else{
 		document.getElementById("loser").style.display="inline-block";
 		}
+
+		document.getElementById('BotonOn').onclick = function () {BotonOff();};
+
 	 }
 
 }
@@ -284,9 +287,9 @@ function actualizarFuel(){
 		motorOff(); /**Que se apage el motor cuando el fuel sea 0**/
 		}
 
-		if (c <0 ) {
-			document.getElementById('BotonOn').onmousedown = function () {BotonOff();};
-			document.getElementById('BotonOff').onmouseup= function(){ BotonOff();};
+		if (c < 0 ) {
+			document.getElementById('BotonOn').onclick = function () {BotonOff();};
+			document.getElementById('BotonOff').onclick = function(){ BotonOff();};
 			motorOff();
 		}
 		combustible.style.height = c +"%";
@@ -311,8 +314,8 @@ function play(){
 	document.getElementById('BotonPause').style.display="inline-block";
 	document.getElementById('BotonPlay').style.display="none";
 	cerrartodo();
-	document.getElementById('BotonOn').onmousedown = function () {BotonOn();};
-	document.getElementById('BotonOff').onmouseup= function(){ BotonOff();};
+	document.getElementById('BotonOn').onclick = function () {BotonOn();};
+	document.getElementById('BotonOff').onclick = function(){ BotonOff();};
 }
 function pause(){
 	stop();
