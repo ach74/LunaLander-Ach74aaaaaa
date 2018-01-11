@@ -28,7 +28,7 @@ Como se puede observar en la versión para ordenadores tenemos una serie de opci
 Los botones que irán intercambiando entre si son los siguientes:
 
 ![Imagen](img/Sonido.png)
-![Imagen](img/nononido.png)
+![Imagen](img/Nononido.png)
 
 * El siguiente es el de reinicio, con el podremos volver a empezar cuando queramos.
 
