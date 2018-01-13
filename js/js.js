@@ -384,7 +384,6 @@ function settings(){
 	BotonOff();
 	document.getElementById("loser").style.display="none";	
 	document.getElementById("winner").style.display="none";
-
 	document.getElementById('BotonOn').onclick = function(){ BotonOff();};
 
 }

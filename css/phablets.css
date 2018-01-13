@@ -232,6 +232,7 @@ width: 100%;
 	background-size: 100% 100%;
 	text-align: center;
 }
+
 #cerrar{
 	top: 2px;
 	left: 2px;
@@ -239,6 +240,14 @@ width: 100%;
 	max-width: 50px;
 	position: absolute;
 }
+#CerrarAyuda,#CerrarAjustes{
+	top: 2px;
+	left: 2px;
+	width: 15%;
+	max-width: 50px;
+	position: absolute;
+}
+
 #Ayuda{
 	display: none; /*inline-block*/
 	position: fixed;
@@ -251,7 +260,9 @@ width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	text-align: center;
+	font-size: 15px;
 }
+
 
 #loser{
 	display: none; /*inline-block*/
@@ -438,9 +449,11 @@ width: 100%;
 	text-align: left; 
 	font-size: 250%;
 }
-#Abutton{
+#Abutton,#Facil,#Normal,#Difícil,#Imposible,#CambiarNave{
 	position: relative;
 	border-radius: 10px;
 	background-color: rgb(171, 179, 195); 
+	height: auto;
+	width: 100px;
 }
 

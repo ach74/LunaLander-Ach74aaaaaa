@@ -431,7 +431,9 @@ height: 100%;
 }
 #Abutton{
 	position: relative;
-	margin-left: 50%;
+	margin-left: 45%;
 	border-radius: 10px;
 	background-color: rgb(171, 179, 195); 
+	width: 100px;
+	height: auto;
 }
