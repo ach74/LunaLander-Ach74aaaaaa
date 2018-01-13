@@ -18,6 +18,8 @@ var siempreV = null;
 var siempreA = null;
 //Cambio de nave
 var NaveCambio = 1;
+//Niveles 
+var VCaida = 5;
 
 
 window.onload = function InicioJuego(){
@@ -140,30 +142,45 @@ function otranave(){
 	}
 }
 
+//Resest solo para los niveles de dificultat
+function reset(){
 
-
-
+	clearInterval(timer);
+	y = 0;
+	v = 0;
+	g = 1.622;
+	a = g;
+	dt = 0.016683;
+	combustible.style.height = c +"%";
+	document.getElementById("BotonPause").style.display="none";
+	document.getElementById('BotonPlay').style.display="inline-block";
+	BotonOff();
+	cerrartodo();
+}
 //Niveles de dificultat
 function facil(){
-	g=g;
+	c = 100;
 	reset();
 	cerrartodo();
 	play();
 }
 function normal(){
-	g=10;
+	c = 75;
+	VCaida = 4;
 	reset();
 	cerrartodo();
 	play();
 }
 function dificil(){
-	g=100;
+	c = 50;
+	VCaida = 3;
 	reset();
 	cerrartodo();
 	play();
 }
 function imposible(){
-	g=1000;
+	c = 20;
+	VCaida = 1;
 	reset();
 	cerrartodo();
 	play();
@@ -238,7 +255,7 @@ function moverNave(){
 	//Game over
 	 if (siempreA>=72.9) {
 
-	 	if (siempreV<=5) {
+	 	if (siempreV<=VCaida) {
 		document.getElementById("winner").style.display="inline-block";
 		}else{
 		document.getElementById("loser").style.display="inline-block";
@@ -324,19 +341,7 @@ function pause(){
 	//para que no gaste fuel
 	document.getElementById('BotonOn').onclick = function(){ BotonOff();};
 }
-function reset(){
 
-	clearInterval(timer);
-	y = 0;
-	v = 0;
-	c = 100;
-	dt = 0.016683;
-	combustible.style.height = c +"%";
-	document.getElementById("BotonPause").style.display="none";
-	document.getElementById('BotonPlay').style.display="inline-block";
-	BotonOff();
-	cerrartodo();
-}
 
 function Restart(){
 
@@ -348,6 +353,7 @@ function Restart(){
 	c = 100;
 	a = g;
 	dt = 0.016683;
+	VCaida = 5;
 	combustible.style.height = c +"%";
 	document.getElementById("BotonPause").style.display="none";
 	document.getElementById('BotonPlay').style.display="inline-block";

@@ -397,7 +397,7 @@ height: 100%;
 	height: 30%;
 	border-radius: 10px;
 }
-#VolverAintentar,#VolverAjugar{
+#VolverAjugar, #VolverAJugar{
 	border-radius: 10px;
 	background-color: #85929E;
 }
