@@ -8,7 +8,7 @@ Juego terminado: https://rawgit.com/ach74/LunaLander-Ach74aaaaaa/master/index.ht
 
 ## PROYECTO:
 
-El objetivo final de este proyecto es desarrollar un juego, en que una nave tiene que aterrizar en la luna, este mismo sera creado estéticamente con HTML y CSS. El desplazamiento de la nave y las funciones de los paneles de control estarán definidos en el JavaScript.
+El objetivo final de este proyecto es desarrollar un juego en que una nave tiene que aterrizar en la luna, este mismo sera creado estéticamente con HTML y CSS. El desplazamiento de la nave y las funciones de los paneles de control estarán definidos en el JavaScript.
 El proyecto que he decidido desarrollar ha sido el que diseñe al principio de este proyecto, pero añadiendo algunas modificaciones.
 
 Este es el resultado final para la versión de ordenador:
@@ -25,35 +25,49 @@ Como se puede observar en la versión para ordenadores tenemos una serie de opci
 ![Imagen](img/screenshots/3.PNG)
 
 * El primer botón situado más a la izquierda, es el de sonido. Una vez pulsado sonara una melodía que nos acompañara mientras jugamos. Por defecto el juego viene silenciado. Cuando pulsemos este boton tambien cambiara. Y pasaremos a tener otro que nos permitira silenciar el juego.
+
 Los botones que irán intercambiando entre si son los siguientes:
 
 ![Imagen](img/Sonido.png)
 ![Imagen](img/nosonido.png)
 
-* El siguiente es el de reinicio, con el podremos volver a empezar cuando queramos.
+
+* El siguiente es el de reinicio, con el podremos volver a empezar cuando queramos. Tiene este aspecto: 
+
+![Imagen](img/Replay.png)
 
 * A continuación viene el botón encargado de pausar el juego o ponerlo en marcha. Este botón ira alternando entre los dos estado según lo pulsemos. Por defecto viene en pausa.
 
 ![Imagen](img/Pause.png)
 ![Imagen](img/Play.png)
 
-* El botón que veremos a continuación es el botón de "Ayuda" que nos abrirá una pestaña donde nos explicara el juego. Panel que abrirá es el siguiente:
+* El botón que veremos a continuación es el botón de "Ayuda" que nos abrirá una pestaña donde nos explicara el juego. 
 
+Bóton de ayuda:
+![Imagen](img/ayuda.png)
+
+Panel que abrirá es el siguiente:
 ![Imagen](img/screenshots/4.png)
 
 Como podemos observar hay un botón el de "About" si le damos nos llevara a otra pagina donde nos hablaran un poco más del juego.
 
 * Por ultimo tenemos el botón de "Ajustes", el cual una vez desplegado nos mostrara las siguientes funciones:
 
-
 ![Imagen](img/screenshots/5.PNG)
 
-Como se muestra podremos cambiar la dificultad y la nave solo con hacer click. Al cambiar la nave, lo que se hace es ocultar la imagen de la nave que sé está mostrando, para poner en visible la que está oculta. Y así sucesivamente. Las naves con las cuales podremos jugar son las siguientes:
+Como se muestra podremos cambiar la dificultad y la nave solo con hacer click. Al cambiar la nave, lo que se hace es ocultar la imagen de la nave que sé está mostrando, para poner en visible la que está oculta. Y así sucesivamente. 
 
+Las naves con las cuales podremos jugar son las siguientes:
 ![Imagen](img/Covete.png)
 ![Imagen](img/Nave.png)
 
-Si lo que queremos es cambiar la dificultad del juego, solo con elegir una de las opciones que se nos muestra bastara. Dependiendo el nivel de dificultad que elijamos el valor que influye sobre la gravedad aumentara o disminuirá.
+Si lo que queremos es cambiar la dificultad del juego, solo con elegir una de las opciones que se nos muestra bastara. Dependiendo el nivel de dificultad que elijamos dispondremos de más fuel o menos fuel, para poder jugar. Ademas de que cada nivel influye en la velocidad máxima que debe tener la nave al caer sobre la base, para poder ganar o perder el juego.
+
+* En el modo fácil la velocidad tendrá que ser inferior a 5 m/s y dispondremos de del 100% del fuel.
+* En el modo normal la velocidad tendrá que ser inferior a 4 m/s y dispondremos de del 75% del fuel.
+* En el modo difícil la velocidad tendrá que ser inferior a 3 m/s y dispondremos de del 50% del fuel.
+* En el modo imposible la velocidad endrá que ser inferior a 1 m/s y dispondremos de del 20% del fuel.
+
 
 ### Botones de la versión para móvil:
 
@@ -92,7 +106,8 @@ El botón es el siguiente:
 
 ![Imagen](img/x.png)
 
-* Otro botón muy importante es el botón para propulsar la nave, en este caso tiene aspecto de palanca, y solo propulsa la nave cuando estos pulsando en él, este botón se mantiene automáticamente apagado cuando no es usado o cuando el juego ha finalizado. Ademas de que cambia de aspecto según lo pulsemos o no.
+* Otro botón muy importante es el botón para propulsar la nave, en este caso tiene aspecto de palanca y por defecto viene bajada (en estado apagado), cuando la accionamos la imagen de la palanca cambia y pasa a tener otra imagen donde la palanca mira hacia arriba (en estado encendido), cuando la palanca está en estado encendido consume el fuel del tanque de combustible que nos marca el indicador.
+Este botón se mantiene automáticamente apagado cuando no es usado o cuando el juego ha finalizado.
 
 Aquí le muestro sus dos estados:
 Botón sin ser pulsado:
