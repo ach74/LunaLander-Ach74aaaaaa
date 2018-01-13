@@ -321,6 +321,8 @@ function pause(){
 	stop();
 	document.getElementById("BotonPlay").style.display="inline-block";
 	document.getElementById("BotonPause").style.display="none";
+	//para que no gaste fuel
+	document.getElementById('BotonOn').onclick = function(){ BotonOff();};
 }
 function reset(){
 
@@ -362,6 +364,8 @@ function help(){
 	BotonOff();
 	document.getElementById("loser").style.display="none";	
 	document.getElementById("winner").style.display="none";
+
+	document.getElementById('BotonOn').onclick = function(){ BotonOff();};
 }
 function closeHelp(){
 	document.getElementById("Ayuda").style.display="none";
@@ -374,6 +378,8 @@ function settings(){
 	BotonOff();
 	document.getElementById("loser").style.display="none";	
 	document.getElementById("winner").style.display="none";
+
+	document.getElementById('BotonOn').onclick = function(){ BotonOff();};
 
 }
 function Closesettings(){
