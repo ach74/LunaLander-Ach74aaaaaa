@@ -58,7 +58,9 @@ Como podemos observar hay un botón el de "About" si le damos nos llevara a otra
 Como se muestra podremos cambiar la dificultad y la nave solo con hacer click. Al cambiar la nave, lo que se hace es ocultar la imagen de la nave que sé está mostrando, para poner en visible la que está oculta. Y así sucesivamente. 
 
 Las naves con las cuales podremos jugar son las siguientes:
+
 ![Imagen](img/Covete.png)
+
 ![Imagen](img/Nave.png)
 
 Si lo que queremos es cambiar la dificultad del juego, solo con elegir una de las opciones que se nos muestra bastara. Dependiendo el nivel de dificultad que elijamos dispondremos de más fuel o menos fuel, para poder jugar. Ademas de que cada nivel influye en la velocidad máxima que debe tener la nave al caer sobre la base, para poder ganar o perder el juego.
