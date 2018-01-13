@@ -125,3 +125,9 @@ Una vez iniciemos el juego la nave ira descendiendo dependiendo de la dificultad
 ![Imagen](img/Covete2.GIF)
 ![Imagen](img/Nave2.gif)
 
+
+## Conclusión del proyecto
+
+El proyecto me ha parecido muy divertido de por si ademas de que muy dinámico, ya que cada cambio que hacia, al instante podía ver como influía directamente en el juego. Ademas de que el consejo de probar el código primero en el "Inspector de elementos" de Google Chome me ha facilitado mucho a la hora de probar cosas.
+
+En el proyecto me han salido variar errores como que me he equivocado a la hora de poner el nombre de una imagen en el código y luego no se vea, que la base lunar no se mantenga donde yo quería, que el motor gastase fuel cuando el juego estaba en pausa y otros más parecido. Pero todo ellos los he podido solucionar gracias a la ayuda de mis compañeros de mesa que me han corregido parte del código y me han dado su opinión de como podría hacer o colocar la cosas.
